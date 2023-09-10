@@ -186,47 +186,55 @@ i{
     padding: 5px;
 }
 
-.about_img{
-    width: 100%;
-    height: 620px;
-    background-image: url(About\ image.png);
-    background-size: cover;
-    
+.about_menu{
+  width: 100%;
+  height: 630px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big_about{
+  width: 48%;
+  height:  80%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_about{
+  width: 100%;
+  height: 100%;
 }
 
 .text_about{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  text-align: center;
 }
 
-.name_about{
-    color: rgba(0, 187, 255,);
-    font-size: 50px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255, 0.4);
-    margin-bottom: 10px;
+.text_name{
+  font-size: 300%;
 }
 
-.about_tt{
-    background-color: #ffffff;
-    padding: 6px;
-    font-size: 30px;
-    color: #00bbff;
-    
+.about_text{
+  font-size: 200%;
+  color: #00bbff;
+  
 }
 
 @media (max-width: 858px){
-    .about_tt{
-        font-size: 20px;
-        background-color: rgb(255, 255, 255);
-        color: #00bbff;
-        padding: 5px;
-        margin-top: 10px;
-        border-radius: 10px;
-    }
+  .text_name{
+    font-size: 30px;
+  }
+
+  .about_text{
+    font-size: 15px;
+  }
+
+  .big_about{
+    padding: 20px;
+  }
+
 
 }
